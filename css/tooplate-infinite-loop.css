@@ -268,16 +268,16 @@ blockquote {
 /* Testimonials */
 #testimonials {
   color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
+  background-image: url(../img/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
-  position: relative;
+  position: static;
 }
 
 @media (max-width: 991px) {
   #testimonials {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
+    background-image: url(../img/bg2.jpg);
   }
 }
 
@@ -514,11 +514,13 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/infinite-loop-03.jpg);
+  background-image: url(../img/bg7.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+
   min-height: 980px;
-  position: relative;
+  position: static;
   padding-bottom: 50px;
   padding-top: 100px;
 }
@@ -605,7 +607,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #38B;
+  color: rgb(250, 250, 250);
   text-decoration: none;
 }
 
